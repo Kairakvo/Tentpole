@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflow System</title>
+    <link rel="stylesheet"  href="{%  static  'css/style.css'  %}">
+
+</head>
+<body>
+    <header>
+        <ul>
+        <a class="Tittle-header" href=""> <span>W</span>orkflow <span>S</span>ystem</a>
+        </ul>
+    </header>
+
+<div class="formAndGraphHolder">
+            <h3>Customer Information</h3>
+        {% comment %} <form class="form-holder" method="post" action="/welcome">
+            <!-- <form method="POST"> -->
+            <label>First Name</label>
+            <input name="firstname" type="text" placeholder="Name"><br>
+            
+            <label>Last Name</label>
+            <input name="lastname" type="text" placeholder="Surname"><br>
+
+            <label>Date Of Birth</label>
+            <input name="dob" type="date" placeholder="MM/DD/YYYY"><br>
+            
+            <label>File</label>
+            <input name="file" type="file"  ><br>
+
+            <a href="http://127.0.0.1:8000/welcome/" id="sub" role="button" class="sbt-btn">Submitt</a>
+        </form> {% endcomment %}
+
+
+    <div class="graphHolder">
+        
+    </div>
+
+</div>
+<footer></footer>
+</body>
+</html>
