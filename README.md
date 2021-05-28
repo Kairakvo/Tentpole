@@ -7,10 +7,11 @@ A simple django application that takes in customer details, together whith an ex
 
 
 ## USAGE
-1.Use a virtual envrironment-venv to run the application. You can do so by executing the following commands in the cmd.(windows 10)
+1.Use a virtual envrironment-venv to run the application. Fisrst download all the code folder, open it and ececute the following commands in the cmd.(windows 10). 
     
     
-    venv\Ssripts\activate
+    py -m venv venv
+    venv\Sripts\activate
     pip install django
     
 2. To run the application,excute:
@@ -20,3 +21,4 @@ A simple django application that takes in customer details, together whith an ex
 3.Then go to the browser and open local address
 
     http://127.0.0.1:8000/
+4. type in the required fiels, upload your file and then press submit
