@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(255, 222, 237);
+}
+header{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+   /* background: rgb(22, 43, 70);
+   background: rgb(15, 26, 41);*/
+   background: rgb(11, 40, 80);
+   z-index: 10;
+
+}  
+/* ...................header*/
+.header ul{
+    list-style: none;
+}
+.header ul li{
+    list-style: none;
+}
+.Tittle-header{
+    color: white;
+    text-decoration: none;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+span{
+    
+    color: rgb(26, 200, 206);
+    font-size: 25px;
+
+}
+/* ...................H3*/
+h3{
+    text-align: center;
+    margin-top: 45px;
+    padding: 10px;
+    background: white;
+    color: rgb(89, 23, 89);
+}
+
+
+/* ...................Form*/
+.formAndGraphHolder{
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(8, 115, 134, 0.459);
+}
+
+form{
+
+    width: 221px;
+    padding: 20px;
+    margin-top: 31px;
+    margin-left: 8px;
+ 
+    background: rgb(16, 54, 75);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-end-end-radius: 20px;
+    border-right-color: white;
+    border-end-start-radius: 1px;
+}
+.sbt-btn{
+    
+    left: 0px;
+    padding: 5px;
+    position: relative;
+}
+.graphHolder{
+    position: absolute;
+    top:45%;
+    width: 600px;
+    height: 200px;
+    margin-left: 50%;
+    border-radius: 10px;
+    background: rgb(60, 97, 118);
+    z-index: -1;
+    
+
+}
+
+
+
+footer{
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    bottom: 0;
+    background: rgb(52, 113, 146);
+    z-index: 1;
+}
